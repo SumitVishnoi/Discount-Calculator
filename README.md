@@ -31,5 +31,5 @@ This tool is helpful for shoppers, students, and developers learning the basics 
 
 ## 📊 Formula Used
 \[
-Discounted Price = Original Price - (Original Price \times \frac{Discount\%}{100})
+Discounted Price = Original Price - (Original Price * {Discount / 100})
 \]
