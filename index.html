@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col items-center gap-5 w-full h-screen justify-center ">
+        <h1 class="text-3xl font-bold">Discount Calculator</h1>
+        <div class="w-[90%] md:w-[30%] rounded-md">
+            <form class="flex flex-col gap-4 items-center shadow-2xl shadow-[black] p-8">
+                <input id="price" type="number" placeholder="Enter your price" class="p-3 rounded w-[90%] outline-none border-2 border-slate-300 font-medium">
+                <input id="discount" type="number" placeholder="Enter your Discount" class="p-3 rounded w-[90%] outline-none border-2 border-slate-300 font-medium">
+                <button id="btn" class="w-[90%] bg-[salmon] font-medium py-3 active:scale-[0.9] rounded-md">Check</button>
+                <p id="text" class="font-semibold text-xl">0</p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
